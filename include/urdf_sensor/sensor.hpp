@@ -58,8 +58,8 @@
 
 
 
-#ifndef URDF_SENSOR_H
-#define URDF_SENSOR_H
+#ifndef URDF_SENSOR_HPP
+#define URDF_SENSOR_HPP
 
 #include <string>
 #include <vector>

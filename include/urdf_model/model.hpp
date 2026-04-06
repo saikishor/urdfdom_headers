@@ -34,8 +34,8 @@
 
 /* Author: Wim Meeussen */
 
-#ifndef URDF_INTERFACE_MODEL_H
-#define URDF_INTERFACE_MODEL_H
+#ifndef URDF_INTERFACE_MODEL_HPP
+#define URDF_INTERFACE_MODEL_HPP
 
 #include <string>
 #include <map>

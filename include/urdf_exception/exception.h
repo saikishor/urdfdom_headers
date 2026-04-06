@@ -32,77 +32,9 @@
 *  POSSIBILITY OF SUCH DAMAGE.
 *********************************************************************/
 
-/* Author: John Hsu */
+#ifndef URDF_INTERFACE_EXCEPTION_H_
+#define URDF_INTERFACE_EXCEPTION_H_
 
-/* encapsulates components in a world
-   see http://ros.org/wiki/usdf/XML/urdf_world
-   for details
-*/
-/* example world XML
-
-<world name="pr2_with_table">
-  <!-- include the models by including
-       either the complete urdf or
-       referencing the file name.  -->
-  <model name="pr2">
-    ...
-  </model>
-  <include filename="table.urdf" model_name="table_model"/>
-
-  <!-- models in the world -->
-  <entity model="pr2" name="prj">
-    <origin xyz="0 1 0" rpy="0 0 0"/>
-    <twist linear="0 0 0" angular="0 0 0"/>
-  </entity>
-  <entity model="pr2" name="prk">
-    <origin xyz="0 2 0" rpy="0 0 0"/>
-    <twist linear="0 0 0" angular="0 0 0"/>
-  </entity>
-  <entity model="table_model">
-    <origin xyz="0 3 0" rpy="0 0 0"/>
-    <twist linear="0 0 0" angular="0 0 0"/>
-  </entity>
-
-</world>
-
-*/
-
-#ifndef URDF_WORLD_HPP
-#define URDF_WORLD_HPP
-
-#include <string>
-#include <vector>
-#include <map>
-
-#include "urdf_world/types.hpp"
-#include "urdf_model/pose.hpp"
-#include "urdf_model/twist.hpp"
-
-namespace urdf{
-
-class Entity
-{
-public:
-  ModelInterfaceSharedPtr model;
-  Pose origin;
-  Twist twist;
-};
-
-class World
-{
-public:
-  World() { this->clear(); };
-
-  /// world name must be unique
-  std::string name;
-
-  std::vector<Entity> models;
-
-  void clear()
-  {
-    this->name.clear();
-  };
-};
-}
+#include <urdf_exception/exception.hpp>
 
 #endif

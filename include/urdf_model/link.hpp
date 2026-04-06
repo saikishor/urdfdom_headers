@@ -34,16 +34,16 @@
 
 /* Author: Wim Meeussen */
 
-#ifndef URDF_INTERFACE_LINK_H
-#define URDF_INTERFACE_LINK_H
+#ifndef URDF_INTERFACE_LINK_HPP
+#define URDF_INTERFACE_LINK_HPP
 
 #include <string>
 #include <vector>
 #include <map>
 
-#include "joint.hpp"
-#include "color.hpp"
-#include "types.hpp"
+#include "urdf_model/joint.hpp"
+#include "urdf_model/color.hpp"
+#include "urdf_model/types.hpp"
 
 namespace urdf{
 

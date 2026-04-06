@@ -34,8 +34,8 @@
 
 /* Author: Steve Peters */
 
-#ifndef URDF_MODEL_TYPES_H
-#define URDF_MODEL_TYPES_H
+#ifndef URDF_MODEL_TYPES_HPP
+#define URDF_MODEL_TYPES_HPP
 
 #include <memory>
 

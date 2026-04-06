@@ -34,8 +34,8 @@
 
 /* Author: Josh Faust */
 
-#ifndef URDF_INTERFACE_COLOR_H
-#define URDF_INTERFACE_COLOR_H
+#ifndef URDF_INTERFACE_COLOR_HPP
+#define URDF_INTERFACE_COLOR_HPP
 
 #include <stdexcept>
 #include <string>

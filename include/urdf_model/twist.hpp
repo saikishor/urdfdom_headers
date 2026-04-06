@@ -34,8 +34,8 @@
 
 /* Author: John Hsu */
 
-#ifndef URDF_TWIST_H
-#define URDF_TWIST_H
+#ifndef URDF_TWIST_HPP
+#define URDF_TWIST_HPP
 
 #include <string>
 #include <sstream>

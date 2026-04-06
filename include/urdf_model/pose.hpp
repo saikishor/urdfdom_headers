@@ -34,8 +34,8 @@
 
 /* Author: Wim Meeussen */
 
-#ifndef URDF_INTERFACE_POSE_H
-#define URDF_INTERFACE_POSE_H
+#ifndef URDF_INTERFACE_POSE_HPP
+#define URDF_INTERFACE_POSE_HPP
 
 #include <cmath>
 #include <sstream>

@@ -34,15 +34,15 @@
 
 /* Author: Steve Peters */
 
-#ifndef URDF_WORLD_TYPES_H
-#define URDF_WORLD_TYPES_H
+#ifndef URDF_WORLD_TYPES_HPP
+#define URDF_WORLD_TYPES_HPP
 
 #if defined(_MSC_VER)
-    #pragma message("warning: urdf_world/types.h is deprecated. Please use urdf_model/types.h instead.")
+    #pragma message("warning: urdf_world/types.h is deprecated. Please use urdf_model/types.hpp instead.")
 #else
-    #warning urdf_world/types.h is deprecated. Please use urdf_model/types.h instead.
+    #warning urdf_world/types.h is deprecated. Please use urdf_model/types.hpp instead.
 #endif
 
-#include <urdf_model/types.h>
+#include <urdf_model/types.hpp>
 
 #endif

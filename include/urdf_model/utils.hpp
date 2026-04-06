@@ -34,8 +34,8 @@
 
 /* Author: Steve Peters */
 
-#ifndef URDF_INTERFACE_UTILS_H
-#define URDF_INTERFACE_UTILS_H
+#ifndef URDF_INTERFACE_UTILS_HPP
+#define URDF_INTERFACE_UTILS_HPP
 
 #include <locale>
 #include <sstream>
