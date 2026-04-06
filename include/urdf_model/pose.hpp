@@ -43,8 +43,8 @@
 #include <string>
 #include <vector>
 
-#include <urdf_exception/exception.h>
-#include <urdf_model/utils.h>
+#include <urdf_exception/exception.hpp>
+#include <urdf_model/utils.hpp>
 
 namespace urdf{
 

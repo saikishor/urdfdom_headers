@@ -39,9 +39,9 @@
 
 #include <string>
 #include <map>
-#include <urdf_model/link.h>
-#include <urdf_model/types.h>
-#include <urdf_exception/exception.h>
+#include <urdf_model/link.hpp>
+#include <urdf_model/types.hpp>
+#include <urdf_exception/exception.hpp>
 
 namespace urdf {
 

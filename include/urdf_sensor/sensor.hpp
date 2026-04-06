@@ -64,11 +64,11 @@
 #include <string>
 #include <vector>
 #include <map>
-#include "urdf_model/pose.h"
-#include "urdf_model/joint.h"
-#include "urdf_model/link.h"
-#include "urdf_model/types.h"
-#include "urdf_sensor/types.h"
+#include "urdf_model/pose.hpp"
+#include "urdf_model/joint.hpp"
+#include "urdf_model/link.hpp"
+#include "urdf_model/types.hpp"
+#include "urdf_sensor/types.hpp"
 
 namespace urdf{
 

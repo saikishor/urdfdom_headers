@@ -41,8 +41,8 @@
 #include <string>
 #include <vector>
 
-#include "urdf_model/pose.h"
-#include "urdf_model/types.h"
+#include "urdf_model/pose.hpp"
+#include "urdf_model/types.hpp"
 
 
 namespace urdf{

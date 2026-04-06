@@ -41,9 +41,9 @@
 #include <vector>
 #include <map>
 
-#include "joint.h"
-#include "color.h"
-#include "types.h"
+#include "joint.hpp"
+#include "color.hpp"
+#include "types.hpp"
 
 namespace urdf{
 
