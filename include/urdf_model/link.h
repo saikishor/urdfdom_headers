@@ -35,6 +35,12 @@
 #ifndef URDF_INTERFACE_LINK_H
 #define URDF_INTERFACE_LINK_H
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_model/link.h is deprecated. Please use urdf_model/link.hpp instead.")
+#else
+    #warning urdf_model/link.h is deprecated. Please use urdf_model/link.hpp instead.
+#endif
+
 #include <urdf_model/link.hpp>
 
 #endif

@@ -35,6 +35,12 @@
 #ifndef URDF_INTERFACE_EXCEPTION_H_
 #define URDF_INTERFACE_EXCEPTION_H_
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_exception/exception.h is deprecated. Please use urdf_exception/exception.hpp instead.")
+#else
+    #warning urdf_exception/exception.h is deprecated. Please use urdf_exception/exception.hpp instead.
+#endif
+
 #include <urdf_exception/exception.hpp>
 
 #endif

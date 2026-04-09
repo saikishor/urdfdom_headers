@@ -35,6 +35,12 @@
 #ifndef URDF_INTERFACE_MODEL_H
 #define URDF_INTERFACE_MODEL_H
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_model/model.h is deprecated. Please use urdf_model/model.hpp instead.")
+#else
+    #warning urdf_model/model.h is deprecated. Please use urdf_model/model.hpp instead.
+#endif
+
 #include <urdf_model/model.hpp>
 
 #endif

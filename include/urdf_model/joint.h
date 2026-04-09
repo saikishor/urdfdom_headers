@@ -35,6 +35,12 @@
 #ifndef URDF_INTERFACE_JOINT_H
 #define URDF_INTERFACE_JOINT_H
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_model/joint.h is deprecated. Please use urdf_model/joint.hpp instead.")
+#else
+    #warning urdf_model/joint.h is deprecated. Please use urdf_model/joint.hpp instead.
+#endif
+
 #include <urdf_model/joint.hpp>
 
 #endif

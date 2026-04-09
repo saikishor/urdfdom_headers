@@ -35,6 +35,12 @@
 #ifndef URDF_INTERFACE_COLOR_H
 #define URDF_INTERFACE_COLOR_H
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_model/color.h is deprecated. Please use urdf_model/color.hpp instead.")
+#else
+    #warning urdf_model/color.h is deprecated. Please use urdf_model/color.hpp instead.
+#endif
+
 #include <urdf_model/color.hpp>
 
 #endif

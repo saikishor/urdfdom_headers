@@ -35,6 +35,12 @@
 #ifndef URDF_SENSOR_H
 #define URDF_SENSOR_H
 
+#if defined(_MSC_VER)
+    #pragma message("warning: urdf_sensor/sensor.h is deprecated. Please use urdf_sensor/sensor.hpp instead.")
+#else
+    #warning urdf_sensor/sensor.h is deprecated. Please use urdf_sensor/sensor.hpp instead.
+#endif
+
 #include <urdf_sensor/sensor.hpp>
 
 #endif
