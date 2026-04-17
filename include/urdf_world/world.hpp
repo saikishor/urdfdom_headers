@@ -74,7 +74,7 @@
 #include <vector>
 #include <map>
 
-#include "urdf_world/types.hpp"
+#include "urdf_model/types.hpp"
 #include "urdf_model/pose.hpp"
 #include "urdf_model/twist.hpp"
 
