@@ -35,12 +35,6 @@
 #ifndef URDF_INTERFACE_UTILS_H
 #define URDF_INTERFACE_UTILS_H
 
-#if defined(_MSC_VER)
-    #pragma message("warning: urdf_model/utils.h is deprecated. Please use urdf_model/utils.hpp instead.")
-#else
-    #warning urdf_model/utils.h is deprecated. Please use urdf_model/utils.hpp instead.
-#endif
-
 #include <urdf_model/utils.hpp>
 
 #endif

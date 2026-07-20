@@ -35,12 +35,6 @@
 #ifndef URDF_SENSOR_TYPES_H
 #define URDF_SENSOR_TYPES_H
 
-#if defined(_MSC_VER)
-    #pragma message("warning: urdf_sensor/types.h is deprecated. Please use urdf_sensor/types.hpp instead.")
-#else
-    #warning urdf_sensor/types.h is deprecated. Please use urdf_sensor/types.hpp instead.
-#endif
-
 #include <urdf_sensor/types.hpp>
 
 #endif

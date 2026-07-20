@@ -35,12 +35,6 @@
 #ifndef URDF_WORLD_TYPES_H
 #define URDF_WORLD_TYPES_H
 
-#if defined(_MSC_VER)
-    #pragma message("warning: urdf_world/types.h is deprecated. Please use urdf_model/types.hpp instead.")
-#else
-    #warning urdf_world/types.h is deprecated. Please use urdf_model/types.hpp instead.
-#endif
-
 #include <urdf_world/types.hpp>
 
 #endif

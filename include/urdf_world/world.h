@@ -35,12 +35,6 @@
 #ifndef URDF_WORLD_H
 #define URDF_WORLD_H
 
-#if defined(_MSC_VER)
-    #pragma message("warning: urdf_world/world.h is deprecated. Please use urdf_world/world.hpp instead.")
-#else
-    #warning urdf_world/world.h is deprecated. Please use urdf_world/world.hpp instead.
-#endif
-
 #include <urdf_world/world.hpp>
 
 #endif

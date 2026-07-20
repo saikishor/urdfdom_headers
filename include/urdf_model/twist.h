@@ -35,12 +35,6 @@
 #ifndef URDF_TWIST_H
 #define URDF_TWIST_H
 
-#if defined(_MSC_VER)
-    #pragma message("warning: urdf_model/twist.h is deprecated. Please use urdf_model/twist.hpp instead.")
-#else
-    #warning urdf_model/twist.h is deprecated. Please use urdf_model/twist.hpp instead.
-#endif
-
 #include <urdf_model/twist.hpp>
 
 #endif
